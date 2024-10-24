@@ -1,0 +1,10 @@
+name: hello-wprld
+on: push
+jobs:
+  my-job:
+    runs-on: ubunto-latest
+    steps:
+      - name: my-step
+
+        run: echo "hello world"
+  
